@@ -1,0 +1,61 @@
+#bmiPage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+    padding: 30px;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  #weightSection,
+  #heightSection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  #weight, #height{
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  #btnCalc {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-right: 50px;
+  }
+  
+  #text {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
