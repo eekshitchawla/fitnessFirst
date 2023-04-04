@@ -1,0 +1,22 @@
+#workoutPage{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem;
+}
+
+#component{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    border: 10px solid orange;
+    border-radius: 30px;
+    margin: 20px;
+}
+
